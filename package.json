@@ -1,0 +1,18 @@
+{
+  "name": "wastewise-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WasteWise AI - Intelligent Waste Sorting and Segregation System",
+  "scripts": {
+    "dev:all": "concurrently -n \"server,client\" -c \"blue,green\" \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "dev": "npm run dev:all",
+    "start": "concurrently -n \"server,client\" -c \"blue,green\" \"npm --prefix server start\" \"npm --prefix client run dev\"",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "test": "npm --prefix server test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

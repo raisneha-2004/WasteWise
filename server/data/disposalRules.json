@@ -1,0 +1,371 @@
+{
+  "Plastic": {
+    "category": "Plastic",
+    "binColor": "Blue",
+    "binNameEn": "Dry Waste Bin (Blue)",
+    "binNameHinglish": "Neela Dabba (Dry Waste Bin)",
+    "hazardLevel": "low",
+    "hazardWarningEn": "Non-biodegradable. Can release toxic microplastics and carcinogenic dioxins if burned in open air.",
+    "hazardWarningHinglish": "Plastic sadta nahi hai. Isko jalane par zehreela dhuaan nikalta hai jo lungs ke liye bohot harmful hai.",
+    "stepsEn": [
+      "Empty any leftover liquids or food particles.",
+      "Rinse the container briefly with water and let it air-dry.",
+      "Crush plastic bottles or containers flat to compress volume.",
+      "Place into the Blue Dry Recyclables Bin or hand over to a registered scrap dealer (Kabadiwala)."
+    ],
+    "stepsHinglish": [
+      "Pehle andar ka bacha hua pani ya khana acche se nikal do.",
+      "Thoda paani daal kar dhokar sukhne do taaki badbu na aaye.",
+      "Bottle ya dabba crush (dabakar) flat kar lo taaki bin mein jagah bache.",
+      "Neelay (Blue) dry waste bin mein daalo ya local kabadiwale bhaiyya ko de do."
+    ],
+    "dosEn": [
+      "Rinse clean bottles and food jars.",
+      "Flatten plastic bottles and tighten the cap back on.",
+      "Segregate rigid plastics (containers) from thin plastic wraps."
+    ],
+    "dontsEn": [
+      "Do not burn plastics under any circumstances.",
+      "Do not throw greasy food-covered plastic without rinsing.",
+      "Do not mix medical syringes or chemical containers in ordinary plastic recycling."
+    ],
+    "dosHinglish": [
+      "Bottles aur dabbo ko paani se saaf karke sukha kar daalo.",
+      "Bottles ko crush karke cap wapas laga do.",
+      "Hard plastic aur patli polythene ko alag alag rakho."
+    ],
+    "dontsHinglish": [
+      "Plastic ko kabhi bhi mat jalao.",
+      "Bina dhule oily ya khane wale plastic ko dry bin mein mat daalo.",
+      "Hospital ke injections ya chemical wali bottle aam plastic mein mat milao."
+    ]
+  },
+  "Paper": {
+    "category": "Paper",
+    "binColor": "Blue",
+    "binNameEn": "Dry Paper & Cardboard Bin (Blue)",
+    "binNameHinglish": "Neela Dabba (Paper & Cardboard)",
+    "hazardLevel": "none",
+    "hazardWarningEn": "Paper is biodegradable, but wet or food-soiled paper cannot be recycled and contaminates the entire batch.",
+    "hazardWarningHinglish": "Paper biodegradable hota hai par agar ispe tel ya geela kooda lag gaya toh yeh recycle nahi ho sakta.",
+    "stepsEn": [
+      "Check that the paper is clean and free of food grease.",
+      "Flatten cartons, cardboard packaging, and corrugated boxes.",
+      "Remove wide plastic packing tapes and large metal clips.",
+      "Store dry and dispose into the Blue Recycling Bin or deliver to paper recyclers."
+    ],
+    "stepsHinglish": [
+      "Dekho ki paper sookha ho aur uspar tel/masala na laga ho.",
+      "Cardboard boxes aur dabbon ko flat (chapat) kar lo.",
+      "Upar lagi plastic tape aur bade pin/staples hata do.",
+      "Neelay (Blue) dry bin mein daalo ya kabadiwale ko sell karo."
+    ],
+    "dosEn": [
+      "Keep newspapers, magazines, and notebooks completely dry.",
+      "Flatten cardboard shipping boxes before disposal.",
+      "Shred sensitive personal documents."
+    ],
+    "dontsEn": [
+      "Do not put pizza boxes with soaked grease into paper recycling.",
+      "Do not include wax-coated or thermocol-backed sheets.",
+      "Do not mix wet tissue papers or soiled napkins."
+    ],
+    "dosHinglish": [
+      "Newspaper, copy-kitaab aur cartons ko sookha rakho.",
+      "Delivery boxes ko fold karke flat karo taaki kam space le.",
+      "Personal details wale papers ko faad kar ya shred karke daalo."
+    ],
+    "dontsHinglish": [
+      "Tel se bhare pizza box ko paper recycle mein mat daalo.",
+      "Wax coated disposable cups ya thermocol paper ke saath mat milao.",
+      "Geela tissue paper ya use kiya hua napkin isme mat daalo."
+    ]
+  },
+  "Glass": {
+    "category": "Glass",
+    "binColor": "Teal",
+    "binNameEn": "Glass & Cullet Bin (Teal/Blue)",
+    "binNameHinglish": "Teal ya Blue Bin (Kanch Ka Kooda)",
+    "hazardLevel": "medium",
+    "hazardWarningEn": "Physical puncture and laceration hazard. Broken shards can severely injure sanitation workers.",
+    "hazardWarningHinglish": "Toota kanch safai karmiyon ke haath aur paon mein chubh sakta hai. Bohot dhyan se pack karo.",
+    "stepsEn": [
+      "Rinse out liquids, oils, or residue from the bottle or jar.",
+      "Separate plastic caps and metal lids.",
+      "If the item is unbroken, place it carefully in the designated glass bin.",
+      "If broken, securely wrap with multiple layers of old newspaper and label 'BROKEN GLASS' before disposal."
+    ],
+    "stepsHinglish": [
+      "Kanch ki bottle ya jar ko paani se rinse kar lo.",
+      "Plastic ka dhakkan ya metal lid alag nikaal lo.",
+      "Agar kanch sahi salamat hai toh aaram se glass bin mein rakho.",
+      "Agar kanch toot chuka hai toh motay newspaper mein acche se lapeto aur upar 'BROKEN GLASS' likh kar rakho."
+    ],
+    "dosEn": [
+      "Always wrap broken glass pieces securely before discarding.",
+      "Donate reusable glass mason jars for home storage.",
+      "Hand intact bottles over to local scrap collectors."
+    ],
+    "dontsEn": [
+      "Do not throw loose shards into standard garbage bags.",
+      "Do not mix mirror glass, light bulbs, or tempered cookware (Borosil) with regular container glass.",
+      "Do not let children handle damaged glass items."
+    ],
+    "dosHinglish": [
+      "Toota kanch hamesha newspaper ya box mein band karke feko.",
+      "Achhi bottles aur jars ko ghar par storage ke liye reuse karo.",
+      "Saabut bottles kabadiwale ko de do, wo bottle plant wapas bhejte hain."
+    ],
+    "dontsHinglish": [
+      "Khula toota kanch kabhi bhi polythene mein mat phenko.",
+      "Mirror (aaina), bulbs ya oven wale glass ko regular glass bottle ke saath mix mat karo.",
+      "Bachho ko toota hua kanch na chhoone dein."
+    ]
+  },
+  "Metal": {
+    "category": "Metal",
+    "binColor": "Grey",
+    "binNameEn": "Metal & Scrap Bin (Grey/Blue)",
+    "binNameHinglish": "Grey ya Blue Bin (Dhaatu Aur Cans)",
+    "hazardLevel": "low",
+    "hazardWarningEn": "Sharp cut edges on tin can lids. May cause cuts and tetanus risk if rusted.",
+    "hazardWarningHinglish": "Cans ke teekhe kinare ungli kaat sakte hain. Jang lage lohe se tetanus ka khatra hota hai.",
+    "stepsEn": [
+      "Rinse away any residue of food or sugary beverages.",
+      "Push sharp can lids inside the can or bend them safely.",
+      "Flatten aluminum cans to optimize bin capacity.",
+      "Deposit into the metal dry recyclable stream or scrap collection point."
+    ],
+    "stepsHinglish": [
+      "Can ke andar ka juice ya khana dho kar saaf karo.",
+      "Dhakkan ke dhardaar kinaron ko can ke andar push kar do.",
+      "Cold drink cans ko per se daba kar flat kar lo.",
+      "Dry recycling bin ya kabadiwale bhaiyya ko de do, metal 100% recycle hota hai."
+    ],
+    "dosEn": [
+      "Rinse aluminum drink cans, food cans, and clean metal foils.",
+      "Sort heavy iron/steel hardware separately from lightweight aluminum.",
+      "Sell bulk metals to certified scrap dealers for extra cash."
+    ],
+    "dontsEn": [
+      "Do not leave sharp jagged can lids sticking out.",
+      "Do not dispose pressurized aerosol spray cans in regular scrap without depressurizing.",
+      "Do not mix chemical or motor oil containers."
+    ],
+    "dosHinglish": [
+      "Beverage cans aur aluminium foil ko halka dho kar saaf daalo.",
+      "Bhaari loha aur patla aluminium alag alag rakho.",
+      "Metal scrap ko kabadiwale ko becho, accha paisa milta hai."
+    ],
+    "dontsHinglish": [
+      "Can ke teekhe dhakkan ko khula bahar mat chhodo.",
+      "Deodorant spray cans ko kooday mein mat daalo jab tak puri tarah khali na ho.",
+      "Engine oil ya acid ke metal dibbe regular scrap mein mat dalo."
+    ]
+  },
+  "Organic": {
+    "category": "Organic",
+    "binColor": "Green",
+    "binNameEn": "Wet & Compostable Bin (Green)",
+    "binNameHinglish": "Hara Dabba (Geela Kooda / Wet Waste)",
+    "hazardLevel": "none",
+    "hazardWarningEn": "Produces methane gas and leachate foul liquid when dumped in anaerobic landfills.",
+    "hazardWarningHinglish": "Geela kooda polythene mein sadne se methane gas banti hai aur kooda se bura smell/keede hote hain.",
+    "stepsEn": [
+      "Keep wet organic scraps strictly separate from plastics, paper, and metal.",
+      "Drain any excess soup or liquid gravy into the sink strainer.",
+      "Place food scraps, peels, and tea leaves into the Green Bin.",
+      "Compost at home in a terracotta pot or vermicompost bed if possible."
+    ],
+    "stepsHinglish": [
+      "Sabzi ke chhilke, bacha khana aur chai patti ko dry waste se bilkul alag rakho.",
+      "Khane ka geela paani/gravy nikal kar strainer se drain karo.",
+      "Hare (Green) wet waste bin mein daalo ya compost pot mein daalo.",
+      "Ghar par khad bana sakte ho toh bagiche ke podhon ke liye best natural fertilizer banega."
+    ],
+    "dosEn": [
+      "Segregate fruit rinds, vegetable trimmings, egg shells, and garden dry leaves.",
+      "Use newspaper lining instead of plastic garbage bags in your wet bin.",
+      "Feed edible leftover food to local community animal shelters when fresh."
+    ],
+    "dontsEn": [
+      "Do not throw plastic wrappers, gutkha pouches, or rubber bands into wet waste.",
+      "Do not mix pet feces or litter into common kitchen compost.",
+      "Do not pour hazardous liquid chemicals into organic waste."
+    ],
+    "dosHinglish": [
+      "Phal, sabzi ke chhilke, ande ke chilke aur chai patti hare bin mein daalo.",
+      "Dustbin ke andar plastic bag ki jagah newspaper ka use karo.",
+      "Bacha hua saaf khana street dogs ya gaushala mein donate karo."
+    ],
+    "dontsHinglish": [
+      "Polythene, toffee wrapper ya rubber band geelay kooday mein mat daalo.",
+      "Kutte/billi ka poop kitchen waste ke saath mix mat karo.",
+      "Pesticide ya acid geelay kooday mein mat daalo."
+    ]
+  },
+  "E-waste": {
+    "category": "E-waste",
+    "binColor": "Orange",
+    "binNameEn": "E-Waste / Take-Back Drop Point (Orange)",
+    "binNameHinglish": "Orange Bin / E-Waste Kendra",
+    "hazardLevel": "high",
+    "hazardWarningEn": "Contains heavy neurotoxins including lead, mercury, cadmium, and brominated flame retardants.",
+    "hazardWarningHinglish": "Electronics mein lead, mercury aur cadmium jaise zehreelay tatva hote hain jo groundwater ko zehreela bana dete hain.",
+    "stepsEn": [
+      "Power off the device and backup/wipe all personal data completely.",
+      "Remove detachable batteries and store them safely.",
+      "Do not dismantle circuit boards or crush screens at home.",
+      "Deliver to an authorized Pollution Control Board (CPCB) registered E-waste collector or brand EPR drop box."
+    ],
+    "stepsHinglish": [
+      "Device ko switch off karo aur apna private data/photos wipe kar lo.",
+      "Agar battery bahar nikal sakti hai toh sambhal kar alag nikalo.",
+      "Ghar par circuit board todne ya screen todne ki koshish mat karo.",
+      "Authorised E-waste center ya electronics store (Croma/Reliance/Samsung) ke drop-box mein jama karo."
+    ],
+    "dosEn": [
+      "Cover battery terminals with electrical tape to avoid sparks.",
+      "Check manufacturer exchange/buyback schemes when buying new gadgets.",
+      "Store broken cables and old chargers in a dry e-waste bag until disposal."
+    ],
+    "dontsEn": [
+      "Never put old phones, remotes, or chargers into regular municipal trash bins.",
+      "Never burn electronic wires to extract copper.",
+      "Never give hazardous e-waste to unorganized child-labor or roadside acid extractors."
+    ],
+    "dosHinglish": [
+      "Battery ke points par tape laga do taaki short-circuit na ho.",
+      "Naya phone/laptop lete time purana exchange scheme mein do.",
+      "Kharab charger aur cable alag bag mein jama karke E-waste center le jao."
+    ],
+    "dontsHinglish": [
+      "Ghar ke regular dustbin mein kabhi bhi phone ya remote mat phenko.",
+      "Taambe (copper) ke liye taar ko kabhi aag mein mat jalao.",
+      "Acid se sona/copper nikalne wale roadside informal kabadiyon ko mat do."
+    ]
+  },
+  "Hazardous": {
+    "category": "Hazardous",
+    "binColor": "Red",
+    "binNameEn": "Hazardous / Sanitary Waste Bin (Red)",
+    "binNameHinglish": "Laal Dabba (Hazardous & Medical Waste)",
+    "hazardLevel": "critical",
+    "hazardWarningEn": "Biohazard, flammable, corrosive, or toxic. Poses immediate risk of infection, burns, or poisoning.",
+    "hazardWarningHinglish": "Khatarnak infection, aag lagne ya zehreelay chemical ka khatra. Turant alag pack karein.",
+    "stepsEn": [
+      "Handle with protective gloves or paper if the substance is chemical or bio-waste.",
+      "Keep in its original leak-proof container with clear warning labels.",
+      "Wrap bio-medical/sanitary waste in newspaper and mark with a red cross or red dot.",
+      "Hand over directly to specialized hazardous/biomedical waste handling agencies."
+    ],
+    "stepsHinglish": [
+      "Hath mein gloves pehno ya sambhal kar pakdo taaki direct chemical skin par na lage.",
+      "Original dhakkan wale dabba mein hi rakho taaki leak na ho.",
+      "Sanitary waste/pads ko paper mein fold karke laal pen/marker se red cross mark karo.",
+      "Safai karmi ko alag se bolo ki yeh hazardous/sanitary kooda hai."
+    ],
+    "dosEn": [
+      "Store batteries, paints, pesticides, and expired medicines separately.",
+      "Clearly mark biomedical items with a red indicator symbol.",
+      "Check expiration dates of chemicals before disposal."
+    ],
+    "dontsEn": [
+      "Do not flush medicines or chemicals down the toilet or sink drains.",
+      "Do not puncture compressed aerosol cans or throw batteries in fire.",
+      "Do not mix bleach with ammonia-based cleaners (creates toxic chloramine gas)."
+    ],
+    "dosHinglish": [
+      "Battery, paint, keede-mar dawa aur expired dawai alag dabba mein rakho.",
+      "Sanitary pads/diapers ko paper mein acche se wrap karke red dot lagao.",
+      "Chemicals ko safe dry jagah bachho ki pahunch se door rakho."
+    ],
+    "dontsHinglish": [
+      "Dawaiyon ya chemicals ko flush ya nali mein mat bahao.",
+      "Aerosol spray can mein chhed mat karo aur battery ko aag ke paas mat le jao.",
+      "Harpic/acid aur doosre chemicals ko aapas mein kabhi mix mat karo."
+    ]
+  },
+  "Textile": {
+    "category": "Textile",
+    "binColor": "Purple",
+    "binNameEn": "Textile & Clothing Donation/Recovery Bin (Purple)",
+    "binNameHinglish": "Purple Bin / Kapda Daan Kendra",
+    "hazardLevel": "none",
+    "hazardWarningEn": "Synthetic fibers (polyester, nylon) take 200+ years to decompose and emit microplastics.",
+    "hazardWarningHinglish": "Polyester aur nylon ke kapde saalon tak sadte nahi hain aur zameen ko pollute karte hain.",
+    "stepsEn": [
+      "Wash and dry the clothes or fabrics thoroughly.",
+      "Inspect condition: if wearable, fold and pack for charity donation.",
+      "If torn or ruined, cut into dusters/mops or keep for fiber regeneration.",
+      "Drop into clothing donation boxes (e.g., Goonj, Clothes Box Foundation) or textile recyclers."
+    ],
+    "stepsHinglish": [
+      "Kapdo ko dho kar acche se sukha lo.",
+      "Check karo: agar pehan-ne layak hai toh daan (donation) ke liye alag rakho.",
+      "Agar fat chuka hai toh ghar ke ponche/duster bana lo ya scrap fabric banao.",
+      "NGO donation box (jaise Goonj) ya kapda recycle center mein drop karo."
+    ],
+    "dosEn": [
+      "Donate clean, wearable clothing to local shelters or NGOs.",
+      "Repurpose worn cotton shirts into reusable kitchen towels.",
+      "Deliver discarded footwear and bags to specialized repair & upcycle centers."
+    ],
+    "dontsEn": [
+      "Do not throw wearable clothes in municipal road dumpsters.",
+      "Do not burn synthetic clothes (releases toxic fumes).",
+      "Do not mix wet or mildewed clothes in donation bundles."
+    ],
+    "dosHinglish": [
+      "Saaf kapde zarooratmand logon ko ya ashram mein donate karo.",
+      "Phate purane cotton t-shirts ko kitchen wipes ke roop mein reuse karo.",
+      "Purane joote aur bags ko mochi se theek karwa kar reuse karo."
+    ],
+    "dontsHinglish": [
+      "Acche kapdo ko kooday-daan mein mat phenko.",
+      "Synthetic kapdo ko kabhi aag mein mat jalao.",
+      "Geelay fafundi lage kapdo ko donation mein mat bhejo."
+    ]
+  },
+  "Other": {
+    "category": "Other",
+    "binColor": "Black",
+    "binNameEn": "General Non-Recyclable Trash Bin (Black)",
+    "binNameHinglish": "Kala Dabba (General Trash / Non-Recyclable)",
+    "hazardLevel": "low",
+    "hazardWarningEn": "Inert or composite items destined for scientific landfills or waste-to-energy incineration.",
+    "hazardWarningHinglish": "Yeh item recycle nahi hota aur landfill ya waste-to-energy plant mein jata hai.",
+    "stepsEn": [
+      "Ensure the item does not contain hazardous chemicals, sharp glass, or rechargeable batteries.",
+      "Wrap sharp ceramics or porcelain safely in thick paper.",
+      "Place into the Black Bin for municipal landfill / RDF collection.",
+      "Consider replacing single-use composite materials with sustainable alternatives."
+    ],
+    "stepsHinglish": [
+      "Pehle check karo ki isme koi battery, tez kanch ya chemical toh nahi hai.",
+      "Agar toota hua ceramic (cup/plate) hai toh paper mein wrap kar lo.",
+      "Kaale (Black) bin mein daalo jo municipal waste mein jayega.",
+      "Aage se disposable aur multi-layer packets ka use kam karne ki koshish karo."
+    ],
+    "dosEn": [
+      "Keep inert household trash dry and separated from organics.",
+      "Check if local municipality sends black-bin waste to Refuse-Derived-Fuel (RDF) plants.",
+      "Wrap sharp broken crockery carefully."
+    ],
+    "dontsEn": [
+      "Do not mix recyclables like clean PET bottles or cans in the black bin.",
+      "Do not put wet kitchen waste in the inert trash bin.",
+      "Do not dispose e-waste or batteries in the black bin."
+    ],
+    "dosHinglish": [
+      "Ghar ke inert kooday ko dry rakho aur wet waste se door rakho.",
+      "Tootay hue chini mitti ke bartan ko paper mein lapet kar daalo.",
+      "Single use products ki jagah reusable cheezein apnao."
+    ],
+    "dontsHinglish": [
+      "Clean plastic bottles aur cans ko black bin mein mat phenko.",
+      "Geela khana black bin mein mat daalo.",
+      "Battery ya charger ko black bin mein mat daalo."
+    ]
+  }
+}

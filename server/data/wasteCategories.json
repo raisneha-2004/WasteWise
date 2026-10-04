@@ -1,0 +1,147 @@
+[
+  {
+    "id": "Plastic",
+    "name": "Plastic",
+    "displayName": "Plastic Waste",
+    "binColor": "Blue",
+    "hexColor": "#2563EB",
+    "recyclable": true,
+    "co2SavedPerKg": 1.5,
+    "typicalWeightKg": 0.05,
+    "tips": [
+      "Rinse and dry plastic bottles before disposal.",
+      "Crush plastic bottles to save space in the recycling bin.",
+      "Check recycling resin identification code (1 to 7) at the bottom."
+    ],
+    "description": "Thermoplastics and recyclables including PET bottles, HDPE jugs, containers, and packaging material."
+  },
+  {
+    "id": "Paper",
+    "name": "Paper",
+    "displayName": "Paper & Cardboard",
+    "binColor": "Blue",
+    "hexColor": "#3B82F6",
+    "recyclable": true,
+    "co2SavedPerKg": 1.1,
+    "typicalWeightKg": 0.15,
+    "tips": [
+      "Keep paper dry and free of food oil or grease.",
+      "Flatten cardboard boxes before putting them in the bin.",
+      "Remove plastic tape and metallic staples where possible."
+    ],
+    "description": "Newspapers, corrugated boxes, office stationery, brochures, and paper cartons."
+  },
+  {
+    "id": "Glass",
+    "name": "Glass",
+    "displayName": "Glass Items",
+    "binColor": "Teal",
+    "hexColor": "#0D9488",
+    "recyclable": true,
+    "co2SavedPerKg": 0.3,
+    "typicalWeightKg": 0.35,
+    "tips": [
+      "Remove metal caps and corks before recycling.",
+      "Wrap broken glass carefully in thick newspaper to protect sanitation workers.",
+      "Glass can be recycled indefinitely without loss in purity."
+    ],
+    "description": "Glass jars, beverage bottles, cosmetic glass containers, and cullet."
+  },
+  {
+    "id": "Metal",
+    "name": "Metal",
+    "displayName": "Metals & Cans",
+    "binColor": "Grey",
+    "hexColor": "#64748B",
+    "recyclable": true,
+    "co2SavedPerKg": 4.2,
+    "typicalWeightKg": 0.1,
+    "tips": [
+      "Rinse food cans to avoid attracting pests.",
+      "Aluminum soda cans are 100% recyclable and save massive energy.",
+      "Separate iron/steel from aluminum if sending to scrap dealers (kabadiwala)."
+    ],
+    "description": "Aluminum beverage cans, tin food cans, foil trays, metal caps, and clean scrap metals."
+  },
+  {
+    "id": "Organic",
+    "name": "Organic",
+    "displayName": "Organic & Biodegradable",
+    "binColor": "Green",
+    "hexColor": "#16A34A",
+    "recyclable": false,
+    "compostable": true,
+    "co2SavedPerKg": 0.5,
+    "typicalWeightKg": 0.25,
+    "tips": [
+      "Never mix plastic wrap or polythene with wet kitchen waste.",
+      "Compost vegetable peels, tea leaves, and garden trimmings at home.",
+      "Do not add cooked oily leftovers in large quantities to simple vermicompost bins."
+    ],
+    "description": "Fruit & vegetable peels, leftover food, tea leaves, garden leaves, and biodegradable waste."
+  },
+  {
+    "id": "E-waste",
+    "name": "E-waste",
+    "displayName": "Electronic Waste",
+    "binColor": "Orange",
+    "hexColor": "#EA580C",
+    "recyclable": true,
+    "co2SavedPerKg": 3.8,
+    "typicalWeightKg": 0.4,
+    "tips": [
+      "Never throw electronics in municipal street garbage bins.",
+      "Deposit phones, chargers, and circuit boards at authorized EPR take-back points.",
+      "Tape battery terminals to prevent short-circuits and fire hazard."
+    ],
+    "description": "Old mobile phones, chargers, laptops, wires, PCB boards, consumer electronics, and peripherals."
+  },
+  {
+    "id": "Hazardous",
+    "name": "Hazardous",
+    "displayName": "Hazardous & Sanitary Waste",
+    "binColor": "Red",
+    "hexColor": "#DC2626",
+    "recyclable": false,
+    "co2SavedPerKg": 0.2,
+    "typicalWeightKg": 0.2,
+    "tips": [
+      "Wrap sanitary pads and diapers in newspaper or marked red pouches.",
+      "Store expired medicines and chemical bottles separately from everyday trash.",
+      "Do not puncture aerosol cans or incinerate chemical containers."
+    ],
+    "description": "Batteries, paint cans, pesticides, expired medicines, medical needles, sanitaries, and chemicals."
+  },
+  {
+    "id": "Textile",
+    "name": "Textile",
+    "displayName": "Textile & Clothing",
+    "binColor": "Purple",
+    "hexColor": "#7C3AED",
+    "recyclable": true,
+    "co2SavedPerKg": 3.0,
+    "typicalWeightKg": 0.3,
+    "tips": [
+      "Donate usable clothes to charities or NGOs like Goonj.",
+      "Repurpose worn-out cotton tees into household dusting rags.",
+      "Send torn synthetic fabrics to specialized textile fiber recovery units."
+    ],
+    "description": "Discarded garments, bed linens, torn fabric scraps, footwear, and curtains."
+  },
+  {
+    "id": "Other",
+    "name": "Other",
+    "displayName": "Inert & General Waste",
+    "binColor": "Black",
+    "hexColor": "#334155",
+    "recyclable": false,
+    "co2SavedPerKg": 0.0,
+    "typicalWeightKg": 0.1,
+    "tips": [
+      "Try to minimize mixed non-recyclables like multi-layer chips packets.",
+      "Ensure ash, ceramic fragments, and street sweepings are kept dry.",
+      "Use as RDF (Refuse Derived Fuel) or send to scientific municipal landfills."
+    ],
+    "description": "Multi-layer laminate packaging, broken ceramics, dust, composite materials, and general inert refuse."
+  }
+]
