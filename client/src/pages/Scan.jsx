@@ -132,8 +132,8 @@ export default function Scan() {
         setScanError({
           code: 'SERVER_UNREACHABLE',
           title: t('scan_page.error_unreachable_title', { defaultValue: 'Scan Failed: Server Unreachable' }),
-          message: t('scan_page.error_unreachable_msg', { defaultValue: 'Could not reach the server. Make sure the backend is running on port 5000.' }),
-          hint: t('scan_page.error_unreachable_hint', { defaultValue: 'Start the backend using "npm run dev:all" from the root or "npm run dev" inside the server directory.' })
+          message: t('scan_page.error_unreachable_msg', { defaultValue: 'Could not reach the server. Please try again in a moment.' }),
+          hint: t('scan_page.error_unreachable_hint', { defaultValue: 'Check your internet connection and verify that the backend service is active.' })
         });
       } else if (
         serverError?.code === 'VISION_KEY_ERROR' ||

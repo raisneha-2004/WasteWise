@@ -5,9 +5,10 @@ import { logger } from '../utils/logger.js';
 dotenv.config();
 
 const envSchema = z.object({
-  PORT: z.string().default('5000').transform((val) => parseInt(val, 10)),
+  PORT: z.union([z.string(), z.number()]).default('5000').transform((val) => typeof val === 'number' ? val : parseInt(val, 10)),
   NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
-  CLIENT_URL: z.string().default('http://localhost:3000'),
+  CLIENT_URL: z.string().optional().default('http://localhost:3000'),
+  FRONTEND_URL: z.string().optional().default(''),
   VISION_PROVIDER: z.enum(['gemini', 'claude']).default('gemini'),
   VISION_API_KEY: z.string().optional().default('')
 });

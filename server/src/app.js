@@ -15,33 +15,71 @@ import assistantRoutes from './routes/assistant.routes.js';
 import healthRoutes from './routes/health.routes.js';
 import { getCategories } from './controllers/waste.controller.js';
 
+import { logger } from './utils/logger.js';
+
 const app = express();
 
 // Security HTTP headers
 app.use(helmet());
 
-// CORS configuration (Allows configured CLIENT_URL and local dev tools)
-const allowedOrigins = [
+// Dynamic CORS configuration (Handles Vercel, Netlify, Render & Localhost)
+const configuredOrigins = [
+  process.env.FRONTEND_URL,
+  process.env.CLIENT_URL,
+  env.FRONTEND_URL,
   env.CLIENT_URL,
   'http://localhost:3000',
   'http://localhost:5173',
   'http://127.0.0.1:3000',
   'http://127.0.0.1:5173'
-].filter(Boolean);
+]
+  .filter(Boolean)
+  .flatMap((url) => url.split(',').map((u) => u.trim().replace(/\/+$/, '')));
+
+const isAllowedOrigin = (origin) => {
+  if (!origin) return true; // Allow non-browser requests (curl, server-to-server, mobile)
+  if (env.NODE_ENV === 'development') return true;
+
+  const normalized = origin.replace(/\/+$/, '');
+
+  // 1. Direct match in configured origins or localhost
+  if (
+    configuredOrigins.includes(normalized) ||
+    normalized.includes('localhost') ||
+    normalized.includes('127.0.0.1')
+  ) {
+    return true;
+  }
+
+  // 2. Allow any Vercel, Netlify, or Render domain
+  try {
+    const hostname = new URL(origin).hostname;
+    if (
+      hostname.endsWith('.vercel.app') ||
+      hostname.endsWith('.netlify.app') ||
+      hostname.endsWith('.onrender.com')
+    ) {
+      return true;
+    }
+  } catch {
+    // Ignore URL parse error
+  }
+
+  return false;
+};
 
 app.use(
   cors({
     origin: (origin, callback) => {
-      // Allow requests with no origin (like mobile apps, curl, Postman)
-      if (!origin) return callback(null, true);
-      if (allowedOrigins.includes(origin) || env.NODE_ENV === 'development') {
+      if (isAllowedOrigin(origin)) {
         return callback(null, true);
       }
-      return callback(new AppError('CORS policy: Access denied for this origin.', 403, 'CORS_ERROR'));
+      logger.warn(`[CORS] Blocked request from origin: ${origin}`);
+      return callback(new AppError(`CORS policy: Access denied for origin ${origin}.`, 403, 'CORS_ERROR'));
     },
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization']
+    allowedHeaders: ['Content-Type', 'Authorization', 'Accept']
   })
 );
 

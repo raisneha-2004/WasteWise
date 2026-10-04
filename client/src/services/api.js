@@ -1,7 +1,9 @@
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+// Dynamic API Base URL resolution (Ensures /api suffix for Vercel, Netlify, Render & Localhost)
+const rawUrl = (import.meta.env.VITE_API_URL || 'http://localhost:5000').trim().replace(/\/+$/, '');
+export const API_BASE_URL = rawUrl.endsWith('/api') ? rawUrl : `${rawUrl}/api`;
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
@@ -23,7 +25,7 @@ apiClient.interceptors.response.use(
 
     if (!errorMsg) {
       if (!error.response || error.code === 'ERR_NETWORK') {
-        errorMsg = 'Could not reach the server. Make sure the backend is running on port 5000.';
+        errorMsg = 'Could not reach the server. Please try again in a moment.';
       } else if (error.code === 'ECONNABORTED' || error.message?.includes('timeout')) {
         errorMsg = 'Request timed out. Please try again with a smaller or clearer photo.';
       } else {
